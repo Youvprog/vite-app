@@ -6,7 +6,7 @@
       <div class="carousel-container">
         <swiper
            :autoplay="{
-            delay:1000,
+            delay:2000,
             disableOnInteraction: false,
             paueOnMouseEnter:true
            }"
@@ -182,6 +182,7 @@ img {
   gap: 15px;
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
+  overflow-x: scroll;
 }
 .info {
   background-color: rgb(48 48 50);
@@ -211,6 +212,7 @@ img {
   border-radius: 1rem;
   display: flex;
   gap: 5rem;
+  overflow-y: scroll;
 }
 .side-bar {
   padding-left: 1rem;
