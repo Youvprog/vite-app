@@ -38,7 +38,7 @@
         </div>
 
         <img src="../assets/téléchargement.png" alt="">
-        <div class="user-info">
+        <div class="user-info volume">
           <img class="info-img" src="../assets/ho_mo@3x.png" alt="">
           <p>Dragon Boat Festival holiday!holiday!</p>
         </div>
@@ -198,6 +198,9 @@ img {
   font-style: italic;
   color: #EBD193;
   font-weight: bold;
+}
+.volume {
+  color: grey;
 }
 .info-img {
   width: 50px;
